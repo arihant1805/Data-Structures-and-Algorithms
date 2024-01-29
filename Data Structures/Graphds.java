@@ -13,9 +13,9 @@ public class Graphds {
     }
     // Using Array of ArrayList
     public static class Edge{
-            int src;
-            int dest;
-            int weight;
+            public int src;
+            public int dest;
+            public int weight;
         // for unweight
         Edge(int src,int dest){
             this.src=src;
