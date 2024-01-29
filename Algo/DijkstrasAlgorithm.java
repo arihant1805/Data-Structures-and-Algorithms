@@ -1,6 +1,7 @@
 package Algo;
 import java.util.ArrayList;
 import java.util.PriorityQueue;
+import Data Structure.Graphds.Edge;
 public class DijkstrasAlgorithm {
     // to find shortest distance of every point from the source
     public static class Pair implements Comparable<Pair> {
