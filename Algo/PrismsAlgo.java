@@ -29,7 +29,7 @@ public static void primAlgo(ArrayList<Edge> graph[]) {
             for(int i=0; i<graph[curr.v].size(); i++) {
                 Edge e = graph[curr.v].get(i);
                 if(!vis[e.dest]) {
-                    pq.add(new Pair(e.dest, e.wt));
+                    pq.add(new Pair(e.dest, e.weight));
                     }
                 }
             }
